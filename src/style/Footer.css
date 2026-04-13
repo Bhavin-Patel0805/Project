@@ -1,0 +1,21 @@
+@media (width: 1024px) {
+      .max-w-7xl > .py-12 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+    }
+
+    @media (min-width: 640px) {
+      input[type="email"] {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      button[aria-label="Subscribe"] {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+
+    @media (max-width: 640px) {
+      footer .opacity-5 { opacity: 0.03 !important; }
+    }
